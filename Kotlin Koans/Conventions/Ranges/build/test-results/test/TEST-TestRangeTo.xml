@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRangeTo" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-09-10T04:29:04" hostname="ACERNITRO5P" time="0.009">
+  <properties/>
+  <testcase name="testAfter" classname="TestRangeTo" time="0.006"/>
+  <testcase name="testBefore" classname="TestRangeTo" time="0.0"/>
+  <testcase name="testInRange" classname="TestRangeTo" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

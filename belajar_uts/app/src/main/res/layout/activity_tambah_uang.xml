@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC93FD"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".TambahUang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:src="@drawable/profile"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded"
+            android:src="@drawable/notification"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="FORM TAMBAH UANG"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOTAL UANG SAAT INI : "
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_button"
+        android:padding="16dp"
+        android:text="0" />
+    <TextView
+        android:id="@+id/tvKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KATEGORI : "
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAMBAHAN UANG : "
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/etTambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_button"
+        android:inputType="number"
+        android:padding="16dp"
+        android:text="0" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JUMLAH KATEGORI : "
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvTotalKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_button"
+        android:padding="16dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TAMBAH UANG" />
+
+</LinearLayout>

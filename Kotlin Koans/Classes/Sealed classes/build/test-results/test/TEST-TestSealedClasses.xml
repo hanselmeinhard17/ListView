@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSealedClasses" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-08-27T12:12:23" hostname="ACERNITRO5P" time="0.006">
+  <properties/>
+  <testcase name="testNum" classname="TestSealedClasses" time="0.004"/>
+  <testcase name="testSum" classname="TestSealedClasses" time="0.001"/>
+  <testcase name="testRecursion" classname="TestSealedClasses" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
